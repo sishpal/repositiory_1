@@ -1,0 +1,55 @@
+1.  uname -a (version of linux).
+2.  ls (list of all hidden and non hidden of current directory).
+3.  ls -a (list of hidden and if there is no hidden file/dir then result is . .. non hidden file/dir).
+4.  ls dir1 (list of dir1).
+5.  ls ~ (list of all hidden and non hidden directory)
+6.  cd .. (change directory to parent directory).
+7.  cd . (show current directory).
+8.  cd ~ (change directory to home directory).
+9.  cd dir1 (change directory to dir1 if no available dir1 then result will be "no such directory dir1"). 10. cp file1 file2 (copy file1 to file2).
+11. cp file1 . (copy file1 to current working directory).
+12. mkdir dir1 (make directory named dir1 in current working directory).
+13. mkdir dir2 dir3 dir4 (make multiple directory in current working directory).
+14. mkdir -p home/d1/d2/d3 (make sevral sundirectory at one time).
+15. mkdir dir1/test1 (make subdirectory in existing directory).
+16. pwd (print the name of current working directory).
+17. mv file1 file2 (move file1 to file2 "file").
+18. rmdir dir1 dir2 (move dir1 to dir2  "directory").
+19. rm dir1 (remove the perticular directory/file).
+20. clear (clear the all previous command).
+21. cat > file1.text (create a new file with named file1 and after enter you can write the content of file1 		and at end press "ctrl+d").
+22. cat file1 (show the all content of file1).
+23. ls -l (to verify the file1 is created or not and show the detail of file1 like as time,where etc).
+24. less t.text (show the content of file t.text but only possible one page content and press q for quit).
+25. head t.text (show the top 10 line of file t.text).
+26. head -4 t.text (show the top 4 line only of file t.text).
+27. tail t.text (show last 15 line of file t.text).
+28. tail -8 t.text (show last 8 line of file t.text).
+29. cat >> t.text (append the content in t.text file).
+30. less t.text (using less for search text inthe file content and pres "/" and type word then highlight 	the founded word).
+31. grep ymcaust t.text (to find the specific word or pattren in the t.text file).
+32. grep -i ymcaust t.text (to find the specific word or pattren (case sensitive) in the t.text file).
+33. grep -v ymcayst t.text (display those lines that do NOT match).
+34. grep -n ymcaust t.text (precede each matching line with the line number).
+35. grep -c ymcaust t.text (print only the total count of matched lines).
+36. grep -ivc ymcaust t.text (print only the total count of not matched lines).
+37. cat file1 file2 > file3 (concatinate the data of file1 and file2 into file3).
+38. sort file1 (show the sorted content).
+40. who (display list of users who are currently logged in).
+41. sort < file1.text (display list of users who are currently logged in).
+42. ls list * (show the all directory or file of current directory).
+43. ls -i (list with details of current directory).
+44. chmod ug-rwx dir1 (change the mode of directory as read,write and execute for user and group with take `	away permission).
+45. chmod a-rwx dir2 (change the mode of directory as read,write and execute for all [user,group,all] with 	take away permission).
+46. chmod u+rx dir3 (change the mode of directory as read and execute for user with add permission).
+47. ls -l (to check mod changed or not. "compare with last details").
+48. sleep 100 (stop the curently prosses for 100 second in the background).
+49. jobs (show the all process status of the current directory).
+50. kill 10 (killed the job number 10).
+51.ls -lag (list access for all files of current directory).
+52. rename oldfolder newfolder (rename the folder name).
+53. rename oldfile newfile (rename the file name).
+54. touch file1 (use to create a empty file. it is also use for change the timestamps).
+55. touch file1 file2 file3 (create the multiple empty files at a time).
+56. touch -d '1 may 2016' file1 (to change the date of file1);
+57. stat file1 (display the all status of file1);
